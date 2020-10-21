@@ -19,9 +19,21 @@
 
 ### 외부데이터 
 - 브랜드 파워 지수
-  브랜드에 따른 가격 변화 추이를 보고자 생성
+  브랜드에 따른 가격 변화 추이를 보고자 매출액, 시장점유율, 점포수를 기반하여 변수 생성
 
 ## 모델링
+- 아래의 모델들을 사용하여 모델링 진행
+  - LinearRegression
+  - DecisionTreeRegressor
+  - RandomForestRegressor
+  - GradientBoostingRegressor
+  - XGBRegressor
+- 가격대 별 데이터 균등 분할 후 모델링
+  - 가격대 별로 데이터 쏠림 현상을 방지하기 위해 데이터 균등 분할 후 모델링
 
+- RandomForestRegressor가 가장 높은 성능을 보임
 
 ## 결론
+- RandomForestRegressor를 회귀 모델로 활용
+- 메뉴 이름 : pipit double double burger from seongsu in South Korea
+- 버거 가격 : $ 8.05(환율 1,180원 적용시) - 9,500원
