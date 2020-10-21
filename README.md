@@ -39,4 +39,5 @@
 ## 결론
 - RandomForestRegressor를 회귀 모델로 활용
 - 메뉴 이름 : pipit double double burger from seongsu in South Korea
-- 버거 가격 : $ 8.05(환율 1,180원 적용시) - 9,500원
+- 예측 버거 가격 : $ 8.05(환율 1,180원 적용시) - 9,500원
+- 실제 버거 가격 : 9,500
