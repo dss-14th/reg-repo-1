@@ -1,6 +1,5 @@
 🍔 
-![Screenshot](pipit1.png)
-![Screenshot](pipit2.png)
+![pipit1](https://user-images.githubusercontent.com/68367358/96970355-8650b280-154e-11eb-819a-895c5b786d86.png)
 
 
 
