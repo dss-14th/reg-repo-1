@@ -18,7 +18,7 @@ The goal is to predict the fair price of the burger using linear regression mode
 - Length of Menu
   Assumption : The longer the length of menu is, the more price rises
   메뉴 길이가 길 수록 가격이 높다고 가정하여 데이터에 추가
-- Ratio of patty, cheese and bun 
+- Proportion of patty, cheese and bun 
   Assumption : 
   단순히 사이즈가 큰 버거가 아니라 빵은 작지만 패티와 치즈가 많은 버거를 비싼 것으로 가정
 - 가격대별 범위 설정 Price Range
@@ -32,20 +32,21 @@ The goal is to predict the fair price of the burger using linear regression mode
   브랜드에 따른 가격 변화 추이를 보고자 매출액, 시장점유율, 점포수를 기반하여 변수 생성
 
 ## Modeling
-- 아래의 모델들을 사용하여 모델링 진행
+- Following models were applied:
   - LinearRegression
   - DecisionTreeRegressor
   - RandomForestRegressor
   - GradientBoostingRegressor
   - XGBRegressor
-- 가격대 별 데이터 균등 분할 후 모델링
+- Splitting data evenly 
+  - To prevent 
   - 가격대 별로 데이터 쏠림 현상을 방지하기 위해 데이터 균등 분할 후 모델링
 
-- RandomForestRegressor가 가장 높은 성능을 보임
+- RandomForestRegressor performed the best
 
-## 결론
-- RandomForestRegressor를 회귀 모델로 활용
-- 메뉴 이름 : pipit double double burger from seongsu in South Korea
-- 예측 버거 가격 : $ 8.05(환율 1,180원 적용시) - 9,500원
-- 실제 버거 가격 : 9,500원
-- 환율에 따라 가격 변동이 있겠지만 실제 가격과 비슷하게 예측했음
+## Conclusion
+- RandomForestRegressor was applied
+- menu : pipit double double burger from seongsu in South Korea
+- Estimated price : $ 8.05($1.00 = 1,180 won) - 9,500 won
+- Actual price : 9,500 won
+- Price may change based on exchange rate but prediction was well-made!
