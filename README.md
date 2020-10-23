@@ -13,10 +13,10 @@ The goal is to predict the fair price of the burger using linear regression mode
   
 ### Derived Variables
 - Length of Menu
-  Assumption : The longer the length of menu is, the more price rises
+  - Assumption : The longer the length of menu is, the more price rises
 
 - Proportion of patty, cheese and bun 
-  Assumption : Expensive burger contains A LOT of cheese, patty, and a small bun
+  - Assumption : Expensive burger contains A LOT of cheese, patty, and a small bun
 
 - Price Range
   - low(< IQR 25)
@@ -26,9 +26,8 @@ The goal is to predict the fair price of the burger using linear regression mode
 
 ### External Data 
 - Brand Power Index
-  Calculated using sales, market share and units
-  브랜드에 따른 가격 변화 추이를 보고자 매출액, 시장점유율, 점포수를 기반하여 변수 생성
-
+  - Calculated using sales, market share and units
+  
 ## Modeling
 - Following models were applied:
   - LinearRegression
@@ -36,10 +35,6 @@ The goal is to predict the fair price of the burger using linear regression mode
   - RandomForestRegressor
   - GradientBoostingRegressor
   - XGBRegressor
-- Splitting data evenly 
-  - To prevent 
-  - 가격대 별로 데이터 쏠림 현상을 방지하기 위해 데이터 균등 분할 후 모델링
-
 - RandomForestRegressor performed the best
 
 ## Conclusion
