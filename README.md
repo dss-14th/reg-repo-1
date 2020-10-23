@@ -12,7 +12,7 @@ The goal is to predict the fair price of the burger using regression models, bas
 ### Data Crawling
 - Crawling
   Assuming ingredients and taste of every burger are indistinguishable, we crawled prices and nutrition facts of menus from nine well-known burger chain in the US
-  website : https://www.menuwithprice.com
+  (website : https://www.menuwithprice.com)
   
 ### Derived Variables
 - Length of Menu
