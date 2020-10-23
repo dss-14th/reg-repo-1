@@ -39,7 +39,7 @@ The goal is to predict the fair price of the burger using linear regression mode
 
 ## Conclusion
 - RandomForestRegressor was applied
-- menu : pipit double double burger from seongsu in South Korea
+- Menu : pipit double double burger from seongsu in South Korea
 - Estimated price : $ 8.05($1.00 = 1,180 won) - 9,500 won
 - Actual price : 9,500 won
 - Price may change based on exchange rate but prediction was well-made!
