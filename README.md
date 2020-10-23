@@ -1,5 +1,5 @@
 🍔 
-![Screenshot](/Users/sangwooim/Documents/workspace/project/pipit1.png)
+![Screenshot](pipit1.png)
 ![Screenshot](pipit2.png)
 
 # Is Your Burger Really Worth the Price?
