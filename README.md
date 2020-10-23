@@ -1,18 +1,18 @@
-🍔 
 ![pipit1](https://user-images.githubusercontent.com/68367358/96970355-8650b280-154e-11eb-819a-895c5b786d86.png)
 
 
 
-# Is Your Burger Really Worth the Price?
+# Is Your Burger Really Worth the Price?🍔 
 This project aims to predict the fair price of "Patty Patty" (name of burger) from Pipit Burger in Seongsu, Seoul if the menu launches in the US 
 
 ## Goal
-The goal is to predict the fair price of the burger using linear regression models, based on nutrition facts, length of menu, brand power index and other features
+The goal is to predict the fair price of the burger using regression models, based on nutrition facts, length of menu, brand power index and other features
 
 ## Data Preprocessing
 ### Data Crawling
 - Crawling
   Assuming ingredients and taste of every burger are indistinguishable, we crawled prices and nutrition facts of menus from nine well-known burger chain in the US
+  website : https://www.menuwithprice.com
   
 ### Derived Variables
 - Length of Menu
