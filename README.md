@@ -1,4 +1,6 @@
 🍔 
+![Screenshot](screenshot.png)
+
 
 # Is Your Burger Really Worth the Price?
 This project aims to predict the fair price of "Patty Patty" (name of burger) from Pipit Burger in Seongsu, Seoul if the menu launches in the US 
