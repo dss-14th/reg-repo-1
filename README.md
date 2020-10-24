@@ -39,8 +39,8 @@ The goal is to predict the fair price of the burger using regression models, bas
   - RandomForestRegressor
   - GradientBoostingRegressor
   - XGBRegressor
-- DecisionTreeRegressor performed the best considering of RMSE and r_squared score.
-
+- DecisionTreeRegressor performed the best considering of RMSE($) and r_squared score.
+![Screen Shot 2020-10-24 at 17 53 47](https://user-images.githubusercontent.com/68367134/97077830-d9476a00-1621-11eb-9112-a746dfd2a851.png)
 
 ## Conclusion
 - DecisionTreeRegressor was applied
