@@ -41,8 +41,8 @@ The goal is to predict the fair price of the burger using regression models, bas
 - RandomForestRegressor performed the best
 
 ## Conclusion
-- RandomForestRegressor was applied
-- Menu : pipit double double burger from seongsu in South Korea
-- Estimated price : $ 8.05($1.00 = 1,180 won) - 9,500 won
-- Actual price : 9,500 won
+- DecisionTreeRegressor was applied
+- Menu : pipit double double burger from seongsu in South Korea (length - 9)
+- Actual price in Korea: 9,500 won ($ 8.05 ($1.00 = 1,180 won))
+- The model shows that $ 4.82 is a reasonable price when entering American burger industry.
 - Price may change based on exchange rate but prediction was well-made!
