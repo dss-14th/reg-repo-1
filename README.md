@@ -29,16 +29,18 @@ The goal is to predict the fair price of the burger using regression models, bas
 
 ### External Data 
 - Brand Power Index
-  - Calculated using sales, market share and units
+  - Calculated using sales and units
   
 ## Modeling
+- Using data splited equally by price range for train and test.
 - Following models were applied:
   - LinearRegression
   - DecisionTreeRegressor
   - RandomForestRegressor
   - GradientBoostingRegressor
   - XGBRegressor
-- RandomForestRegressor performed the best
+- DecisionTreeRegressor performed the best considering of RMSE and r_squared score.
+
 
 ## Conclusion
 - DecisionTreeRegressor was applied
